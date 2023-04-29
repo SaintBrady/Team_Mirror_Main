@@ -17,6 +17,17 @@
 		44109A8A29FC57CB00DC141B /* Team_MirrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44109A8929FC57CB00DC141B /* Team_MirrorTests.swift */; };
 		44109A9429FC57CC00DC141B /* Team_MirrorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44109A9329FC57CC00DC141B /* Team_MirrorUITests.swift */; };
 		44109A9629FC57CC00DC141B /* Team_MirrorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44109A9529FC57CC00DC141B /* Team_MirrorUITestsLaunchTests.swift */; };
+		44109AA429FC58D800DC141B /* RosterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44109AA329FC58D800DC141B /* RosterViewController.swift */; };
+		44109AA629FC58EA00DC141B /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44109AA529FC58EA00DC141B /* ScheduleViewController.swift */; };
+		44109AA829FC58F400DC141B /* SocialsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44109AA729FC58F400DC141B /* SocialsViewController.swift */; };
+		44109AAA29FC598400DC141B /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44109AA929FC598400DC141B /* DBManager.swift */; };
+		44109AAC29FC599E00DC141B /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44109AAB29FC599E00DC141B /* Player.swift */; };
+		44109AB129FC646500DC141B /* Swifter in Frameworks */ = {isa = PBXBuildFile; productRef = 44109AB029FC646500DC141B /* Swifter */; };
+		44109AC529FC8F6B00DC141B /* GameDBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44109AC429FC8F6B00DC141B /* GameDBManager.swift */; };
+		44109AC729FC90E200DC141B /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44109AC629FC90E200DC141B /* Game.swift */; };
+		44109ACB29FCA5AF00DC141B /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44109ACA29FCA5AF00DC141B /* PlayerCell.swift */; };
+		448A3D4029FCC2F1006259BE /* GameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448A3D3F29FCC2F1006259BE /* GameCell.swift */; };
+		448A3D4229FCDD6C006259BE /* Speaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448A3D4129FCDD6C006259BE /* Speaker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +62,16 @@
 		44109A8F29FC57CC00DC141B /* Team_MirrorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Team_MirrorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44109A9329FC57CC00DC141B /* Team_MirrorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team_MirrorUITests.swift; sourceTree = "<group>"; };
 		44109A9529FC57CC00DC141B /* Team_MirrorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team_MirrorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		44109AA329FC58D800DC141B /* RosterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RosterViewController.swift; sourceTree = "<group>"; };
+		44109AA529FC58EA00DC141B /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		44109AA729FC58F400DC141B /* SocialsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialsViewController.swift; sourceTree = "<group>"; };
+		44109AA929FC598400DC141B /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		44109AAB29FC599E00DC141B /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		44109AC429FC8F6B00DC141B /* GameDBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDBManager.swift; sourceTree = "<group>"; };
+		44109AC629FC90E200DC141B /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		44109ACA29FCA5AF00DC141B /* PlayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
+		448A3D3F29FCC2F1006259BE /* GameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCell.swift; sourceTree = "<group>"; };
+		448A3D4129FCDD6C006259BE /* Speaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speaker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44109AB129FC646500DC141B /* Swifter in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +126,16 @@
 				44109A6F29FC57C900DC141B /* AppDelegate.swift */,
 				44109A7129FC57C900DC141B /* SceneDelegate.swift */,
 				44109A7329FC57C900DC141B /* ViewController.swift */,
+				44109AA329FC58D800DC141B /* RosterViewController.swift */,
+				44109AA529FC58EA00DC141B /* ScheduleViewController.swift */,
+				44109AA729FC58F400DC141B /* SocialsViewController.swift */,
+				44109ACA29FCA5AF00DC141B /* PlayerCell.swift */,
+				448A3D3F29FCC2F1006259BE /* GameCell.swift */,
+				44109AA929FC598400DC141B /* DBManager.swift */,
+				44109AC429FC8F6B00DC141B /* GameDBManager.swift */,
+				44109AAB29FC599E00DC141B /* Player.swift */,
+				44109AC629FC90E200DC141B /* Game.swift */,
+				448A3D4129FCDD6C006259BE /* Speaker.swift */,
 				44109A7529FC57C900DC141B /* Main.storyboard */,
 				44109A7B29FC57CB00DC141B /* Assets.xcassets */,
 				44109A7D29FC57CB00DC141B /* LaunchScreen.storyboard */,
@@ -146,6 +178,9 @@
 			dependencies = (
 			);
 			name = Team_Mirror;
+			packageProductDependencies = (
+				44109AB029FC646500DC141B /* Swifter */,
+			);
 			productName = Team_Mirror;
 			productReference = 44109A6C29FC57C900DC141B /* Team_Mirror.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +253,9 @@
 				Base,
 			);
 			mainGroup = 44109A6329FC57C900DC141B;
+			packageReferences = (
+				44109AAF29FC646500DC141B /* XCRemoteSwiftPackageReference "Swifter" */,
+			);
 			productRefGroup = 44109A6D29FC57C900DC141B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -261,9 +299,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44109ACB29FCA5AF00DC141B /* PlayerCell.swift in Sources */,
+				44109AA429FC58D800DC141B /* RosterViewController.swift in Sources */,
+				448A3D4029FCC2F1006259BE /* GameCell.swift in Sources */,
 				44109A7429FC57C900DC141B /* ViewController.swift in Sources */,
 				44109A7A29FC57C900DC141B /* Team_Mirror.xcdatamodeld in Sources */,
+				44109AAA29FC598400DC141B /* DBManager.swift in Sources */,
+				44109AC529FC8F6B00DC141B /* GameDBManager.swift in Sources */,
+				44109AA629FC58EA00DC141B /* ScheduleViewController.swift in Sources */,
+				44109AC729FC90E200DC141B /* Game.swift in Sources */,
+				44109AA829FC58F400DC141B /* SocialsViewController.swift in Sources */,
 				44109A7029FC57C900DC141B /* AppDelegate.swift in Sources */,
+				448A3D4229FCDD6C006259BE /* Speaker.swift in Sources */,
+				44109AAC29FC599E00DC141B /* Player.swift in Sources */,
 				44109A7229FC57C900DC141B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -600,6 +648,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		44109AAF29FC646500DC141B /* XCRemoteSwiftPackageReference "Swifter" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mattdonnelly/Swifter.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		44109AB029FC646500DC141B /* Swifter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 44109AAF29FC646500DC141B /* XCRemoteSwiftPackageReference "Swifter" */;
+			productName = Swifter;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		44109A7829FC57C900DC141B /* Team_Mirror.xcdatamodeld */ = {

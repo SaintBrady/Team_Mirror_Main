@@ -9,11 +9,21 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    @IBAction func rosterView() {
+        let vc = storyboard?.instantiateViewController(withIdentifier: "roster_vc") as! RosterViewController
+        present(vc, animated: true)
     }
-
-
+    @IBAction func scheduleView() {
+        let vc = storyboard?.instantiateViewController(withIdentifier: "schedule_vc") as! ScheduleViewController
+        present(vc, animated: true)
+    }
+    @IBAction func socialsView() {
+        let vc = storyboard?.instantiateViewController(withIdentifier: "socials_vc") as! SocialsViewController
+        present(vc, animated: true)
+    }
+    @IBAction func buttonAction() {
+        let speaker = Speaker()
+        speaker.playSound()
+    }
 }
 
